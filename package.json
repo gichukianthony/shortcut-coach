@@ -2,6 +2,7 @@
   "name": "shortcut-coach",
   "displayName": "shortcut-coach",
   "description": "Suggest keyboard shortcuts based on repeated actions",
+  "publisher": "antony-gichuki-gatitu",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.109.0"
@@ -48,5 +49,9 @@
     "webpack-cli": "^6.0.1",
     "@vscode/test-cli": "^0.0.12",
     "@vscode/test-electron": "^2.5.2"
-  }
+  },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/gichukianthony/shortcut-coach.git"
+}
 }
