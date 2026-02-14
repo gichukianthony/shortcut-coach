@@ -3,7 +3,7 @@ import * as vscode from 'vscode';
 export function activate(context: vscode.ExtensionContext) {
     const TIP_THRESHOLD = 5;
 
-    // Status Bar
+    // Status Bar display
     const statusBarItem = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Right, 100);
     statusBarItem.text = `Shortcut Coach: 0`;
     statusBarItem.show();
