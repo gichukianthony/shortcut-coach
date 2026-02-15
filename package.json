@@ -3,7 +3,7 @@
   "displayName": "shortcut-coach",
   "description": "Suggest keyboard shortcuts based on repeated actions",
   "publisher": "antony-gichuki-gatitu",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.109.0"
   },
@@ -16,10 +16,6 @@
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
-      {
-        "command": "shortcut-coach.openFile",
-        "title": "Shortcut Coach: Open File"
-      },
       {
         "command": "shortcut-coach.showDashboard",
         "title": "Shortcut Coach: Show Dashboard"
@@ -51,7 +47,15 @@
     "@vscode/test-electron": "^2.5.2"
   },
   "repository": {
-  "type": "git",
-  "url": "https://github.com/gichukianthony/shortcut-coach.git"
-}
+    "type": "git",
+    "url": "https://github.com/gichukianthony/shortcut-coach.git"
+  },
+  "keywords": [
+    "shortcuts",
+    "keyboard",
+    "productivity",
+    "tips",
+    "learning"
+  ],
+  "license": "MIT"
 }
