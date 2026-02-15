@@ -1,6 +1,6 @@
 {
   "name": "shortcut-coach",
-  "displayName": "shortcut-coach",
+  "displayName": "Shortcut Coach",
   "description": "Suggest keyboard shortcuts based on repeated actions",
   "publisher": "antony-gichuki-gatitu",
   "version": "1.0.0",
@@ -11,7 +11,7 @@
     "Other"
   ],
   "activationEvents": [
-    "*" 
+    "*"
   ],
   "main": "./dist/extension.js",
   "contributes": {
